@@ -1,0 +1,6 @@
+API_KEY = "Your API Key"
+ACCOUNT_SID = "Your Account_SID"
+AUTH_TOKEN = "Your Auth_Token"
+TWILIO_PHONE = "Your Twilio Phone Number"
+RECIPIENT_PHONE = "Your Phone Number"
+OPENWEATHER_ENDPOINT = "http://api.openweathermap.org/data/2.5/forecast"
