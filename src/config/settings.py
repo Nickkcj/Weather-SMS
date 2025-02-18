@@ -1,6 +1,7 @@
-API_KEY = "Your API Key"
-ACCOUNT_SID = "Your Account_SID"
-AUTH_TOKEN = "Your Auth_Token"
-TWILIO_PHONE = "Your Twilio Phone Number"
-RECIPIENT_PHONE = "Your Phone Number"
+import os
+API_KEY = os.environ.get("OWM_API_KEY")
+ACCOUNT_SID = os.environ.get("SID")
+AUTH_TOKEN = os.environ.get("AUTH_TOKEN")
+TWILIO_PHONE = os.environ.get("TWILIO_PHONE")
+RECIPIENT_PHONE = os.environ.get("RECIPIENT_PHONE")
 OPENWEATHER_ENDPOINT = "http://api.openweathermap.org/data/2.5/forecast"
